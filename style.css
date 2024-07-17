@@ -1,0 +1,626 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 65.2%;
+  font-family: Rubik;
+}
+
+/* ****** header space ***** */
+
+.header {
+  height: 7rem;
+  background-color: #dfcfe0;
+  align-items: center;
+  display: flex;
+}
+.nav-div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0 3.2rem;
+}
+.logo-div img {
+  width: 5rem;
+}
+.nav-list {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+  text-decoration: none;
+}
+.nav-list a {
+  text-decoration: none;
+  color: #59535a;
+  transition: all 0.3s;
+  border-radius: 10px;
+  padding: 1rem 2rem;
+}
+.nav-li a {
+  background-color: #59535a;
+  color: #dfcfe0;
+}
+.nav-list a:hover {
+  background-color: #59535a;
+  color: #dfcfe0;
+}
+li {
+  font-weight: 600;
+  font-size: 1.6rem;
+  transition: all 0.3s;
+}
+
+/* ****** hero section **** */
+
+.hero {
+  padding: 7.2rem 0;
+  height: 80vh;
+  background-image: radial-gradient(
+      rgba(17, 17, 17, 0.863),
+      rgba(32, 32, 32, 0.363)
+    ),
+    url(./fibart-assets/hero/main-img.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.hero-main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  max-width: 90rem;
+  height: 70%;
+  margin: 0 auto;
+}
+.head-text {
+  border-radius: 10px;
+  background-image: linear-gradient(
+    rgba(27, 27, 27, 0.5),
+    rgba(27, 27, 27, 0.5)
+  );
+  margin-bottom: 3rem;
+}
+
+.head-h1 {
+  font-size: 5.2rem;
+  color: #efe7f0;
+  margin-bottom: 1.2rem;
+}
+.head-p {
+  font-size: 1.8rem;
+  color: #ece2ec;
+
+  letter-spacing: 1.1px;
+  line-height: 1.5;
+  padding-bottom: 1rem;
+}
+
+.hero-buttons {
+  display: flex;
+  gap: 2rem;
+}
+
+.hero-buttons a {
+  color: #e5d9e6;
+  text-decoration: none;
+  font-size: 2rem;
+  font-weight: 600;
+  background-color: #867c86;
+  padding: 1.6rem 3.2rem;
+  border-radius: 8px;
+}
+
+.artists {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 7.2rem;
+}
+.artist-img img {
+  border-radius: 50%;
+  height: 3.4rem;
+  margin: -0.5rem;
+  border: 1px solid white;
+  margin-bottom: 0.8rem;
+}
+
+.artist-p {
+  font-size: 1.5rem;
+  color: white;
+  font-weight: 400;
+}
+
+/* *** partner logos section ****** */
+
+.logos-section {
+  padding: 2rem;
+  background-color: #f9f5f9;
+  padding-bottom: 4rem;
+}
+.logos-h1 {
+  text-align: center;
+  margin-bottom: 3rem;
+  filter: brightness(0);
+  opacity: 0.5;
+  font-weight: 500;
+  margin-top: 2rem;
+}
+.logos-div {
+  display: flex;
+  max-width: 120rem;
+  margin: 0 auto;
+  justify-content: space-evenly;
+
+  filter: brightness(0);
+  opacity: 0.5;
+}
+.logos-div img {
+  height: 3.2rem;
+}
+
+/* ***** how it works section ***** */
+
+.how-it-works {
+  padding: 0 13.2rem;
+  background-color: #efe7f0;
+  margin: 0 auto;
+  padding-top: 3rem;
+  padding-bottom: 2rem;
+}
+.how-steps-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 4.8rem;
+
+  margin-bottom: 9.6rem;
+}
+.how-texts {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.how-section-title {
+  margin-bottom: 5rem;
+}
+.how-title {
+  font-size: 1.6rem;
+  color: #333;
+  padding: 0.6rem 1.2rem;
+  background-color: #dfcfe0;
+  border-radius: 7px;
+  opacity: 0.8;
+}
+.how-h1 {
+  font-size: 3rem;
+  color: #433e43;
+  margin-top: 2rem;
+}
+.how-it-works-h2 {
+  font-size: 7.5rem;
+  color: #3333338f;
+  margin-bottom: 3.2rem;
+}
+
+.how-it-works-h1 {
+  font-size: 3.2rem;
+  margin-bottom: 2.4rem;
+  color: #433e43;
+}
+.how-it-works-p {
+  font-size: 1.8rem;
+  color: #59535a;
+  line-height: 1.6;
+}
+.how-it-works-img,
+#how-it-works-img-spec {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  z-index: 1;
+}
+.how-img,
+.how-img-spec {
+  margin: 0 auto;
+  width: 50%;
+
+  border-radius: 7px;
+}
+.how-img {
+  /* height: 70%; */
+  width: 50%;
+}
+#how-it-works-img-spec::before {
+  content: "";
+  display: block;
+  border-radius: 7px;
+  width: 70%;
+
+  padding-bottom: 70%;
+  background-color: #dfcfe0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+}
+
+#how-it-works-img-spec::after {
+  content: "";
+  display: block;
+  border-radius: 7px;
+  width: 60%;
+  padding-bottom: 60%;
+  background-color: #c9baca;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+}
+.how-it-works-img::before {
+  content: "";
+  display: block;
+  border-radius: 7px;
+  width: 70%;
+
+  padding-bottom: 55%;
+  background-color: #dfcfe0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+}
+
+.how-it-works-img::after {
+  content: "";
+  display: block;
+  border-radius: 7px;
+  width: 60%;
+  padding-bottom: 45%;
+
+  background-color: #c9baca;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+}
+
+/* ***** section nft cards **** */
+
+.marketplace-cards {
+  padding: 9.6rem;
+  background-color: #f9f5f9;
+}
+
+.marketplace-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin: 0 auto;
+  
+}
+.cards-header {
+  font-size: 4.2rem;
+  color: #433e43;
+  margin-top: 2rem;
+}
+
+.cards-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 4rem 9.6rem;
+  overflow: hidden;
+  gap: 6.5rem;
+}
+.cards-div {
+  border-radius: 7px;
+  padding: 0;
+  transition: all 0.3s;
+  margin: 0 auto;
+
+}
+
+.cards-div:hover {
+  transform: translateY(-2%);
+}
+
+.cards-names {
+  font-size: 1.6rem;
+}
+.nft-card {
+  box-shadow: 0 0 3rem rgb(164, 156, 156);
+  border-radius: 7px;
+  overflow: hidden;
+  transition: all 0.3s;
+}
+
+.nft-card:hover {
+  box-shadow: 0 0 4.5rem rgb(164, 156, 156);
+}
+
+.cards-div img {
+  width: 100%;
+}
+.divss {
+  overflow: hidden;
+  padding:3.2rem;
+}
+
+.cards-head-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  text-align: center;
+
+  flex-direction: column;
+  gap: 1.6rem;
+}
+.card-name {
+  font-size: 2.4rem;
+  margin-bottom: 2rem;
+  border-bottom: 0.4px solid #b2a6b3;
+  width: 80%;
+  padding-bottom: 1rem;
+}
+
+.card-info-list {
+  list-style: none;
+  gap: 2rem;
+  width: 80%;
+  font-size: 1.7rem;
+  display: flex;
+
+  flex-direction: column;
+}
+
+.see-more {
+  text-align: center;
+  font-size: 1.6rem;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 6.4rem;
+}
+.see-more a {
+  text-decoration: none;
+  color: #66858c;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid #867c86;
+}
+.nft-more {
+  transition: all 0.3s;
+}
+
+.nft-more:hover {
+  margin-left: 3rem;
+}
+
+/* **** nft gallery **** */
+
+.nft-gallrey {
+  background-color: #efe7f0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 2rem 0rem 4rem 4rem;
+  overflow: hidden;
+}
+
+.galery-texts {
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+}
+.titles-div {
+  padding: 0 3.2rem;
+}
+
+.texts-head {
+  font-size: 3.2rem;
+  margin-bottom: 3rem;
+  margin-top: 3rem;
+}
+
+.texts-artist {
+  font-size: 1.8rem;
+}
+.gallery-photos {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  overflow: hidden;
+  padding: 0 3.2rem;
+}
+.photos-1 {
+  overflow: hidden;
+  /* display: block; */
+}
+
+.photos-1 img {
+  width: 100%;
+  display: block;
+  overflow: hidden;
+  transition: all 0.3s;
+}
+.overflow {
+  overflow: hidden;
+}
+
+.photos-1 img:hover {
+  transform: scale(1.3);
+}
+
+.artist-name {
+  display: flex;
+  justify-content: end;
+  margin-top: 5rem;
+
+  font-size: 1.8rem;
+  font-weight: 500;
+}
+
+/* ***** free nft section ***** */
+.main-free-nft {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  overflow: hidden;
+  gap: 4rem;
+
+  box-shadow: 0 0 2.4rem rgb(151, 151, 151);
+  margin: 0 auto;
+  max-width: 110rem;
+  background-color: #e5d9e6;
+}
+
+.free-nft {
+  padding: 4.2rem 3.2rem;
+  margin-top: 12rem;
+  margin-bottom: 12rem;
+  overflow: hidden;
+}
+.free-img-box {
+  background-image: linear-gradient(
+      hsla(300, 4%, 42%, 0.349),
+      rgba(134, 124, 134, 0.349)
+    ),
+    url(./fibart-assets/form/girl.jpg);
+  background-position: center;
+  background-size: cover;
+  border-radius: 10px;
+  /* overflow: hidden; */
+}
+
+.about-info {
+  border-top: 0.1px solid #dbdbdb;
+}
+
+.nft-avatar-h2 {
+  font-size: 4rem;
+  margin: 4rem 0;
+}
+.form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  font-weight: 700;
+  margin-top: 5rem;
+  margin-bottom: 2rem;
+}
+.form div {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+}
+.form label {
+  font-size: 1.5rem;
+  width: 80%;
+  margin-bottom: 1rem;
+}
+.form select {
+  padding: 1.5rem 1rem;
+  border-radius: 7px;
+  font-size: 1rem;
+}
+.form input {
+  padding: 1.5rem 1rem;
+  border-radius: 7px;
+  border: none;
+}
+.submit-button {
+  width: 80%;
+  /* margin: 0.1rem; */
+  /* height: 3rem; */
+  border-radius: 7px;
+  background-color: #433e43;
+  font-size: 1.2rem;
+  color: white;
+  border: none;
+  font-weight: 700;
+  cursor: pointer;
+  padding: 1.5rem 1rem;
+  margin-top: 2.5rem;
+  transition: all 0.5s;
+}
+
+.submit-button:hover {
+  background-color: #433e43a9;
+  color: #333;
+
+  border: 1px solid white;
+}
+.nft-free-p {
+  font-size: 2rem;
+  font-weight: 400;
+}
+
+/* ****** footer **** */
+
+.about-info {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 4rem;
+  padding: 8rem;
+}
+
+.about-info a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+}
+.contact-us,
+.company,
+.Resources {
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+  margin: 0 auto;
+}
+.contact-us,
+.company,
+.Resources,
+footer p {
+  margin-bottom: 2rem;
+
+  color: #727272;
+}
+
+.footer-divs-head {
+  font-size: 1.5rem;
+  color: #777;
+  margin-bottom: 3rem;
+}
+
+.social img {
+  border-radius: 50%;
+  width: 30%;
+}
+
+.social {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.social-link {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+.social-link img {
+  width: 10%;
+}
