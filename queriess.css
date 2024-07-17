@@ -1,7 +1,5 @@
-@media (max-width: 60em){
-  html{
+@media (max-width: 60rem) {
+  html {
     font-size: 60%;
-    color: red;
-    background-color: aliceblue;
   }
 }
