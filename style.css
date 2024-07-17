@@ -310,7 +310,6 @@ li {
   align-items: center;
   text-align: center;
   margin: 0 auto;
-  
 }
 .cards-header {
   font-size: 4.2rem;
@@ -330,7 +329,6 @@ li {
   padding: 0;
   transition: all 0.3s;
   margin: 0 auto;
-
 }
 
 .cards-div:hover {
@@ -356,7 +354,7 @@ li {
 }
 .divss {
   overflow: hidden;
-  padding:3.2rem;
+  padding: 3.2rem;
 }
 
 .cards-head-title {
@@ -624,3 +622,7 @@ footer p {
 .social-link img {
   width: 10%;
 }
+
+
+
+/*     hxgs */
